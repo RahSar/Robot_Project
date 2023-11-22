@@ -1,6 +1,6 @@
 # COLORS
 
-Select Random 4 letters and place an order
+Select 4 cubes and place an order
 
 ## Table of Contents
 
@@ -16,15 +16,17 @@ To get started with the project, follow these steps:
 
 2. ## Create a virtual environment (optional but recommended):
     ```python -m venv venv```
+        ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```
+
     ```source venv/bin/activate  # On Windows, use: venv\Scripts\activate```
 
 3. ## Install project dependencies from the requirements.txt file:
     ```pip install -r requirements.txt```
 
-3. ## Database migrations:
+4. ## Database migrations:
     ```python manage.py migrate```
 
-4. ## Start the development server:
+5. ## Start the development server:
     ```python manage.py runserver```
 
 
